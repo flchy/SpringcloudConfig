@@ -1,0 +1,14 @@
+info:
+  description: Spring Cloud Samples
+  url: https://github.com/spring-cloud-samples
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+foo: abc
+spring:
+  profiles: cloud
+  cloud:
+    config:
+      uri: ${vcap.services.${PREFIX:}configserver.credentials.uri:http://user:password@${PREFIX:}configserver.${application.domain:cfapps.io}}
