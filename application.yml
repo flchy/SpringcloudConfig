@@ -1,6 +1,6 @@
 info:
   description: Spring Cloud Samples
-  url: https://github.com/spring-cloud-samples
+  url: https://github.com/flchy
 eureka:
   client:
     serviceUrl:
