@@ -1,0 +1,13 @@
+spring:
+  profiles: cloud
+#eureka:
+#  password: password
+  instance:
+    hostname: ${vcap.application.uris[0]}
+    nonSecurePort: 80
+#  client:
+#    serviceUrl:
+#      defaultZone: ${vcap.services.${PREFIX:}eureka.credentials.uri:http://user:${eureka.password:}@${PREFIX:}eureka.${application.domain:cfapps.io}}/eureka/
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
