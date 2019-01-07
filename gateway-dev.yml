@@ -1,5 +1,5 @@
 info:
-  description: Spring Cloud gateway
+  description: Spring Cloud gateway1
   url: https://github.com/flchy/SpringcloudConfig
 eureka:
   client:
