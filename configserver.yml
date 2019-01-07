@@ -1,6 +1,6 @@
 spring:
   profiles: cloud
-#eureka:
+eureka:
 #  password: password
   instance:
     hostname: ${vcap.application.uris[0]}
