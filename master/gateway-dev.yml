@@ -1,7 +1,0 @@
-info:
-  description: Spring Cloud gateway
-  url: https://github.com/flchy/SpringcloudConfig
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
